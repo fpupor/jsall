@@ -1,0 +1,41 @@
+body {
+	background: #2fb59f;
+}
+
+h1 {
+	background-image: url('../img/bg1.gif');
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 360px;
+	margin-bottom: -10px;
+}
+
+h1 span {
+	display: none;
+}
+
+div#container {
+	width: 950px;
+	margin: 0px auto 0px auto;
+}
+
+div#citacoes
+{
+	padding: 0px 90px 0 90px;
+	font: 9pt/1.7 Verdana,Arial,sans-serif;
+	text-align: justify;
+}
+
+div#citacoes h2 {
+	font-weight: normal;
+}
+
+div#citacoes h2 {
+	margin-bottom: 20px;
+}
+
+div#citacoes h2 em {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 7.5pt;
+}

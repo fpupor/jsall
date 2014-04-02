@@ -1,0 +1,567 @@
+#main{
+	margin: 0 auto;
+	width: 812px;
+}
+
+
+#container{
+	float: left;
+	margin: 50px 0;
+}
+
+ul#menuTopo {
+	margin-left:40px;
+}
+
+ul#menuTopo li {
+	background: #d2b549;
+	display: block;
+	float: left;
+	font-family: Arial;
+	font-size: 13px;
+	padding: 6px;
+	color: white;
+	margin-right: 2px;
+}
+
+ul#menuTopo li a {
+	color: white;
+	text-decoration: none;
+}
+
+div#bg1 {
+	width: 812px;
+	background:red;
+	top: 76px;
+	left: 78px;
+	background: url(../img/bgSolido.gif); 
+	padding-bottom:25px;
+	float: left;
+}
+
+div#bg2 {
+	width: 812px;
+	background: url(../img/bgTop.gif) no-repeat;
+	float: left;
+}
+
+#topo h1 {
+	background: url(../img/logo.gif); 
+	width: 67px;
+	height: 62px;
+	margin-top:50px;
+	margin-left:50px;
+        float:left;
+        display:inline;
+}
+
+#topo h2 {
+	background: url(../img/amorPresente2.gif);
+	width: 334px;
+	height: 73px;
+	margin-top: 100px;
+	margin-left: 30px;
+	float: left;
+}
+
+div.foto {
+	width: 223px;
+	width: 248px;
+	float: left;
+	margin-left: 69px;
+	display:inline;
+	/*margin-top: -1px;*/
+	margin-bottom: -2px;
+}
+
+ul.menu {
+	display:inline;
+	height: 26px;
+	margin-top:-24px;
+	margin-left:41px;
+	float: left;
+}
+
+.menu li, .subMenu li, .menuInicial li {
+	float: left;
+	margin-right: 0px;
+}
+.menu li a, .subMenu li a, .menuInicial a {
+	width:100%;
+	height: 100%;
+}
+
+.menu  li.home {
+	background: url(../img/abaHome.gif) no-repeat;
+	width:50px;
+	height: 26px;
+}
+
+.menu  li.condicoes {
+	background: url(../img/abaCondicoes.gif) no-repeat;
+	width:156px;
+	height: 26px;
+}
+
+.menu li.acompanhe {
+	background: url(../img/abaAcompanhe.gif) no-repeat;
+	width:200px;
+	height: 26px;
+}
+
+ul.subMenu {
+	display: inline;
+	height: 26px;
+	margin-top:0px;
+	margin-left:49px;
+	float: left;;
+}
+
+.subMenu  li.abertura, .subMenu  li.aberturaOn {
+	background: url(../img/abaAbertura.gif) no-repeat;
+	width:156px;
+	height: 25px;
+}
+
+.subMenu  li.aberturaOn {
+	background: url(../img/abaAberturaOn.gif) no-repeat;
+}
+
+.subMenu  li.horario, .subMenu  li.horarioOn {
+	background: url(../img/abaHorario.gif) no-repeat;
+	width:181px;
+	height: 25px;
+}
+
+.subMenu  li.horarioOn {
+	background: url(../img/abaHorarioOn.gif) no-repeat;
+}
+
+.subMenu  li.promocao, .subMenu  li.promocaoOn {
+	background: url(../img/abaPromocao.gif) no-repeat;
+	width:156px;
+	height: 25px;
+}
+
+.subMenu  li.promocaoOn {
+	background: url(../img/abaPromocaoOn.gif) no-repeat;
+}
+
+.subMenu  li.pagamento, .subMenu  li.pagamentoOn {
+	background: url(../img/abaPagamento.gif) no-repeat;
+	width:185px;
+	height: 25px;
+}
+.subMenu  li.pagamentoOn {
+	background: url(../img/abaPagamentoOn.gif) no-repeat;
+}
+
+ul.menuInicial {
+	display:inline;
+	height: 26px;
+	margin-top:-24px;
+	margin-left:410px;
+	float: left;
+}
+
+.menuInicial  li.condicoesInicial {
+	background: url(../img/abaCondicoesInicial.gif) no-repeat;
+	width:173px;
+	height: 25px;
+}
+
+.menuInicial li.acompanheInicial {
+	background: url(../img/abaAcompanheInicial.gif) no-repeat;
+	width:210px;
+	height: 25px;
+}
+
+
+div#containerTabela, div#conteudo {
+	clear: both;
+	background: #f2f1ef;
+	border: 1px solid #b4ab89;
+	margin-top: 3px;
+	margin-left:41px;
+	padding-bottom:10px;
+	width: 730px;
+}
+
+div#conteudo {
+	font-family: Trebuchet MS;
+	font-size:12px;
+	line-height: 14px;
+}
+
+div#selecao, .formulario, .subFormulario {
+	font-family: Trebuchet MS, Arial;
+	font-size: 12px;
+	color: black;
+	font-weight: normal;
+}
+
+div#selecao {
+	/*margin: 13px 10px 0px 10px;*/
+	border:1px solid #c5c4c2;
+	background: white;
+	float: left;
+	width:708px;
+	margin: 10px 0 0 10px;
+	display:inline;
+}
+
+div#selecao p {
+	margin: 32px 55px 0 55px;
+}
+
+div#containerTabela  h1, div#conteudo  h1, div#containerTabela {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #d2b549;
+}
+
+div#containerTabela  h1, div#conteudo  h1 {
+	margin: 15px 0 15px 10px; 
+	float: left;
+}
+
+div#conteudo div.informacoes h1 {
+	clear: both;
+	border:1px solid red;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+.formulario label {
+	font-weight: bold;
+	margin-right:25px;
+}
+
+.subFormulario label {
+	display: block;
+	width: 126px;
+	text-align: right;
+	float: left;
+	margin-right:28px;
+	vertical-align: bottom;
+	border:0px solid red;
+	padding: 5px 0;
+	font-weight: bold;
+}
+.subFormulario fieldset {
+	margin-bottom: 5px;
+}
+
+.formulario {
+	margin-top: 25px;
+	margin-left:55px;
+}
+
+.subFormulario {
+	clear: both;
+	margin: 0 0 10px 0px;
+}
+
+div#imprimir {
+	background: url(../img/imprimir.gif) no-repeat ;
+	background-position: 8px 5px;
+	width: 92px;
+	height: 28px;
+	border-top: 1px solid #c2c1bf;
+	border-left: 1px solid #c2c1bf;
+	float: right;
+}
+
+div#imprimir a {
+	width: 92px;
+	height: 100%;
+	display:block;
+}
+
+table.tabela {
+	clear: both;
+	/*float: left;*/
+	margin: 0px 10px 10px 10px;
+	border: 1px solid black;
+	width: 712px;
+	font-family: Arial;
+	font-size:11px;
+	line-height: 12px;
+	border: 0;
+}
+
+table.tabela thead {
+	background: #d2b549;
+}
+
+table.tabela thead  th, table.tabela tbody td, table.tabela tfoot td {
+	text-align: center;
+	vertical-align:middle;
+	border-right: 2px solid #f2f1ef;
+	border-bottom: 2px solid #f2f1ef;	
+	padding: 4px;
+} 
+
+table.tabela thead  th {
+	font-weight: bold;
+	color: white;
+	padding: 8px 4px 8px 4px
+}
+
+table.tabela thead  tr.subHead  th{
+	background: #e0cf8f;
+	padding: 5px 0 5px 0;
+}
+
+table.tabela thead  tr.subHead2 th{
+	background: #e4d6a4;
+	color: black;
+}
+
+table.tabela tbody td {
+	background: #dcdacb;
+	color: black;
+}
+
+table.tabela tbody td a {
+	color: black;
+}
+
+table.tabela tbody tr.bgClaro td {
+	background: #eae8d8;
+	color: black;
+}
+
+table.tabela tfoot tr {
+	background: #E0CF8F;
+	color: #fff;
+	font-weight: bold;
+}
+table.tabela tfoot th{
+        padding:5px;
+        text-align:center;
+        font-weight:bold;
+}
+
+
+div#grafico {
+       clear:both;
+       margin: 0 auto;
+       margin-top:25px;
+       /*float: left;*/
+       /* margin: 10px 0 0 40px;*/
+       background: url(../img/grafico.gif) no-repeat top left;
+       width:713px;
+       height:194px;
+       padding:10px;
+}
+th.semBg {
+	background: #f2f1ef;
+}
+
+div.voltar {
+	margin: 0 0 10px 10px;
+	clear: both;
+	/*float: left;*/
+}
+div.voltar a {
+	text-decoration: none;
+	
+}
+p.export {text-align:right; margin:17px 11px 0 0; float:right; font-family:Arial;font-size:12px; display:inline;}
+p.export a {color:#B99613; text-decoration:none; font-weight:bold;}
+p.export a:hover{text-decoration:underline;}
+
+table#barrasGraf{
+ float:left;
+ margin-left:210px;
+ display:inline;
+}
+
+table.legenda {
+        float:right;
+        margin-right:30px;
+}
+
+h1#titGraf{
+       margin:15px 0 15px 0;
+       text-align:center;
+       font-family:Arial;
+       color:#B99613;
+}
+
+div.cemPontos, div.duzentosPontos, div.trezentosPontosA, div.trezentosPontosB {
+	clear: both;
+	float: left;
+	margin-left: 110px;;
+}	
+	
+
+div.cemPontos {
+	width: 258px;
+	height: 118px;
+	background: url(../img/cemPontos.gif) no-repeat top left;
+}
+
+div.duzentosPontos {
+	width: 258px;
+	height: 117px;
+	background: url(../img/duzentosPontos.gif) no-repeat top left;
+}
+
+div.trezentosPontosA {
+	width: 258px;
+	height: 115px;
+	background: url(../img/trezentosPontosA.gif) no-repeat top left;
+}
+
+div.trezentosPontosB {
+	width: 258px;
+	height: 114px;
+	background: url(../img/trezentosPontosB.gif) no-repeat top left;
+}
+
+div.descPromo {
+	width: 230px;
+	float: left;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	line-height: 14px;
+	margin-left: 20px;
+}
+
+div.descPromo em {
+	font-style: normal;
+	font-weight: bold;
+	color: #b99200;
+	
+}
+
+div#conteudo div.separador {
+	clear:both;
+	background:#c2c1bf;
+	height:1px;
+	margin: 15px 2px 15px 2px;
+	
+}
+div.informacoes {
+	float: let;
+	padding: 0 25px 25px 25px;
+	margin-top: 25px;;
+	
+	
+}
+div.informacoes p {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+div.informacoes em {
+	color: #d2b549;
+	font-style:normal;
+	font-weight: bold;
+}
+
+div.informacoes h2, div.informacoes h3, .tituloInfo {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #d2b549;
+	margin: 0 0 10px 0;
+}
+
+div.informacoes h3 {
+	color: black;
+}
+
+.tituloInfo {
+	margin:20px 0 3px;
+	display:inline;
+	float:left;
+	width:100%	
+}
+
+
+div.condicoesPdf {
+	width: 683px;
+	height: 30px;
+	background: url(../img/condicoesPdf.gif) no-repeat top left;
+	padding: 33px 0 0 80px;
+	margin:0;
+}
+div.condicoesPdf a {
+	color: black;
+	font-weight: bold;
+}
+
+div#containerInicial {
+	background: url(../img/bgInicial.jpg)  no-repeat top left;
+	width: 816px;
+	height: 382px;
+}
+div#containerInicial h1 {
+	background: url(../img/amorPresenteInicial.gif);
+	width: 420px;
+	height: 50px;
+	margin-top: 35px;
+	margin-left: 45px;
+	float: left;
+}
+
+div.boxInicial {
+	float: left;
+	width: 310px;
+	height: auto;
+	clear: both;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+}
+
+div.boxInicial img {
+	float: left;
+	vertical-align: top;
+	margin-right: 12px;
+}
+
+div.boxInicial h2.condComerciais {
+	background: url(../img/titCondComerciais.gif) no-repeat top left;
+	width:170px;
+	height:20px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+div.boxInicial h2.acompanhe {
+	background: url(../img/titAcompanhe.gif) no-repeat top left;
+	width:170px;
+	height:25px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+div.boxWrapper {
+	padding: 13px;
+}
+
+div.boxInicial a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

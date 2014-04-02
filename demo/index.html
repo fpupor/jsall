@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>projeto javascript require</title>
+	</head>
+	<body>
+		<!-- holders -->
+		<div id="droppable-holder">
+			<div id="holder1" class="droppable"></div>
+			<div id="holder2" class="droppable"></div>
+			<div id="holder3" class="droppable"></div>
+			<div id="holder4" class="droppable"></div>
+			<div id="holder5" class="droppable"></div>
+			<div id="holder6" class="droppable"></div>
+		</div>
+		<div class="clear"></div>
+		
+		
+		<!-- images -->
+		<div id="dragable-holder">
+			<div class="dragable" id="dragable1">Drag Me 1</div>
+			<div class="dragable" id="dragable2">Drag Me 2</div>
+			<div class="dragable" id="dragable3">Drag Me 3</div>
+			<div class="dragable" id="dragable4">Drag Me 4</div>
+			<div class="dragable" id="dragable5">Drag Me 5</div>
+			<div class="dragable" id="dragable6">Drag Me 6</div>
+		</div>
+		<div class="clear"></div>
+		<script type="require/nocompact" src="Drag.Move">
+			//when the dom is ready...
+			document.ondragstart = function () { return false; }; //IE drag hack
+			
+			//for every dragable image...
+			$$('.dragable').each(function(drag) {
+				
+				//make it dragable, and set the destination divs
+				new Drag.Move(drag, { 
+					droppables: '.droppable',
+					onDrop: function(el,droppable) {
+						if(droppable.get('rel') != 'filled')
+						{
+							//inject into current parent
+							el.inject(droppable).addClass('locked');
+							el.setStyles({'left':0,'top':0,'position':'relative','margin':0}); //hack -- wtf?
+							droppable.set('rel','filled');
+							this.detach();
+						}
+					},
+					onEnter: function(el,droppable) {
+						//colors!
+						droppable.addClass('mo');
+					},
+					onLeave: function(el,droppable) {
+						droppable.removeClass('mo');
+					}
+				});
+				
+				drag.setStyles({ 'top':0, 'left':0, 'margin-right':'20px' });
+				
+			});
+		</script>				
+
+		<script type="text/javascript" src="js/jsall.js" for='Mootools' id='js'></script>
+	</body>
+</html>
